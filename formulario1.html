@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+    <script src="js/funciones.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="formulario1.html" class="menu_link">Ejercicio 1</a></li>
+                <li><a href="formulario2.html" class="menu_link">Ejercicio 2</a></li>
+                <li><a href="formulario3.html" class="menu_link">Ejercicio 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form">
+            <div class="title">
+                <h1>Ejercicio 1</h1>
+                <i class="far fa-edit"></i>
+            </div>
+            
+            <form action="javascript:void(0)" method="GET" name="formu1" class="formulario1" onsubmit="form1()">
+                <h3>Ingrese un número entre 3 y 10:</h3><br>
+                <input type="number" name="valor" id="valor" required min="3" max="10" placeholder="Valor numérico"><br>
+                <input type="submit" id="submit" value="Aceptar">
+            </form>
+    
+            <div id="salida1">
+                <ul id="resultado1"></ul><br>  
+                <button onclick="window.location.reload();" class="refresh" >Reiniciar</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px 80px;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0, 0.5);
+}
+
+header .navbar ul li {
+    display: inline-flex; 
+}
+
+header .navbar a {
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    align-items: center;
+}
+
+header .navbar a:hover {
+    color: #faa249;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.form {
+    background-color: white;
+    width: 400px;
+    position: absolute;
+    top: 420px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  0px 15px 35px rgb(0, 0, 0, 0.5);
+}
+
+.form .title {
+    background-color: #ff8000;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.form .title h1 {
+    font-weight: 500;
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.title i {
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    padding: 0 0 20px;
+}
+
+.formulario1, .formulario2, .formulario3 {
+    color: gray;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.formulario1 input, .formulario3 input, #operacion {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.formulario2 label { 
+    font-size: 18px;
+}
+
+.formulario2 input {
+    display: inline-block;
+    text-align: center;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: gray;
+}
+
+#salida1, #salida2, #salida3 {
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.refresh {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
