@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -24,20 +24,23 @@ header .navbar ul li {
 }
 
 header .navbar a {
-    color: white;
+    color: gray;
     padding: 20px 20px;
     text-align: center;
     align-items: center;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 header .navbar a:hover {
-    color: #faa249;
+    color: #C14ECC;
     padding: 20px 20px;
     cursor: pointer;
 }
 
 body {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background: radial-gradient(circle, #4CD5F0, #A93DEB);
 }
 
 .form {
@@ -51,7 +54,7 @@ body {
 }
 
 .form .title {
-    background-color: #ff8000;
+    background-color: #C14ECC;
     color: white;
     width: 100%;
     overflow: hidden;
@@ -101,7 +104,7 @@ body {
     width: 100%;
     font-size: 16px;
     padding: 5px;
-    background-color: black;
+    background-color: #4088F5;
     color: white;
     border: gray;
 }
